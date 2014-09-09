@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_pass"
+        android:icon="@drawable/ic_action_remove"
+        android:title="Change Password" />
+    <item
+        android:id="@+id/pass_onstart"
+        android:title="Require Password?"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/wifi_onstart"
+        android:title="WiFi On Start?"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/menu_exit"
+        android:icon="@drawable/ic_action_remove"
+        android:title="Exit" />
+</menu>
